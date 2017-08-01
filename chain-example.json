@@ -1,0 +1,36 @@
+[
+  {
+    "id": "SKILLP",
+    "modeling": "I can use a pre-existing skill."
+  },
+  {
+    "id": "SKILL1",
+    "deps": ["SKILLP"],
+    "title": "Basic Skill One",
+    "action": "Action",
+    "simulation": "Simulation",
+    "feedback": "Feedback",
+    "challenge": "Challenge",
+    "modeling": "I can use skill one."
+  },
+  {
+    "id": "SKILL2",
+    "deps": ["SKILLP"],
+    "title": "Basic Skill Two",
+    "action": "Action",
+    "simulation": "Simulation",
+    "feedback": "Feedback",
+    "challenge": "Challenge",
+    "modeling": "I can use skill two."
+  },
+  {
+    "id": "SKILL12",
+    "deps": ["SKILL1", "SKILL2"],
+    "title": "Advanced Skill",
+    "action": "Action",
+    "simulation": "Simulation",
+    "feedback": "Feedback",
+    "challenge": "Challenge",
+    "modeling": "I can use a skill that combines skills one and two."
+  }
+]
